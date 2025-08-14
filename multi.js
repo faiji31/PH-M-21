@@ -24,9 +24,12 @@ function calculator(a,b,operator){
         const result=multi(a,b);
         return result;
     }
-    else{
+    else if(operator==="div"){
         const result = div(a,b);
         return result;
+    }
+    else{
+        return "any opertion Not Match";
     }
 }
 
